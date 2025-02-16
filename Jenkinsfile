@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'java_agent'}
     tools{
       maven 'sonarmaven'
     }
